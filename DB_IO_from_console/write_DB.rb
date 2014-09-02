@@ -8,6 +8,6 @@ puts 'name,text:'
 while data = gets.chomp
   name, text = data.split(',')
   p name,text
-  client.query("insert into ircReudyTestWithDB (name, text) values('#{name}', '#{text}')")
+  client.query("insert into T_TIME_LINE (USR_ID, MESSAGE) values('#{name}', '#{text}')")
   puts 'name,text:'
 end

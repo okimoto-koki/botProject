@@ -7,9 +7,9 @@ require 'mysql2'
 
 client = Mysql2::Client.new(:host => 'localhost', :username => 'root', :password => 'root', :database => 'reudy_test')
 while true
-  client.query('SELECT id, name, text FROM ircReudyTestWithDB').each do |data|
+  client.query('SELECT TML_ID, USR_ID, MESSAGE FROM T_TIME_LINE').each do |data|
     # p id,name,text
-    puts "id: #{data['id']}, name:#{data['name']}, text:#{data['text']}" 
+    puts "TML_ID: #{data['TML_ID']}, USR_ID:#{data['USR_ID']}, MESSAGE:#{data['MESSAGE']}"
   end
   puts 'ここまで'
   sleep 5
