@@ -26,10 +26,10 @@ while true
     end
 
     # lastID.datを更新
-    lastIDwrite = open("../lastID.dat", "w")
-    lastIDwrite.puts data['TML_ID']
-    lastIDwrite.close
-    puts 'ここまで'
+    # lastIDwrite = open("../lastID.dat", "w")
+    # lastIDwrite.puts data['TML_ID']
+    # lastIDwrite.close
+    # puts 'ここまで'
 
   end
   # 5秒に一回ループさせる

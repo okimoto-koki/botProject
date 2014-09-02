@@ -10,7 +10,7 @@
 host                    localhost
 port                    6667
 encoding                JIS
-channel                 #reudy_test
+channel                 #reudy
 info_channel            #reudy_test
 
 # 2. IRCのサーバ/チャンネルに入るのにパスワードが必要な場合は、指定してください。
