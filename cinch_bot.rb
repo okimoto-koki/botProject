@@ -33,7 +33,7 @@ bot = Cinch::Bot.new do
 
       # 最終ツイートIDが最新と一緒、もしくは最新ユーザIDが自分なら飛ばす
       if lastID == @newerTimelineID || @newerUserID == @id
-        puts ("same TML_ID or my tweet")
+        puts ('same TML_ID or my tweet')
       else
 
         $client.query("select MESSAGE from T_TIME_LINE ORDER BY TML_ID DESC LIMIT 1").each do |row|
