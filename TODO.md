@@ -7,3 +7,9 @@
 #2014年9月2日
 ##やったこと
 * read_DBを更新
+* reudyとcinchをIRC上で動かせるようになった
+
+##やること
+* reudyが割りと無口問題
+* cinchのエンコードが違う
+* Hubot使ってTwitterから持ってくる
