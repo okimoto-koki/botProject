@@ -1,8 +1,5 @@
 # データベースの内容を取ってくるプログラム
 
-# TODO: datファイル作る
-# TODO: cinchBot.rb参考にしながら新規の投稿だけ取る
-
 require 'mysql2'
 
 # DBに接続
